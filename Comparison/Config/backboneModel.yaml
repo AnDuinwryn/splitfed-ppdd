@@ -1,0 +1,12 @@
+model:
+  input_size:
+    - mel_spectrogram: 
+        n_frequencies: 128
+        n_timeFrames: 259
+        n_channels: 3
+
+training:
+  batch_size: 32
+  n_epochs: 1000
+  patience: 10
+  init_learning_rate: !!float 1e-04
